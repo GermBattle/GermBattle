@@ -1,0 +1,4 @@
+#Mon May 14 21:44:21 CST 2018
+base.0=E\:\\Unity3D\\GermBattle\\Temp\\gradleOut\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=E\:\\Unity3D\\GermBattle\\Temp\\gradleOut\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
