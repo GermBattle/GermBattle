@@ -1,9 +1,9 @@
 Android
 PlayerPath?
-E:/Unity3D/GermBattle/GermBattle.apk
+E:/Unity3D/project/GermBattle/GermBattle.apk
 SceneListBegin?
-Assets/Scenes/GameScene.unity
 Assets/Scenes/MainScene.unity
+Assets/Scenes/GameScene.unity
 Assets/Scenes/RoundScene.unity
 Assets/Scenes/RuleScene.unity
 Assets/Scenes/RankScene.unity
@@ -112,6 +112,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultInitializationErrorHandler
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -199,6 +200,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultTrackableEventHandler
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 f02726adeff0a3ec5905565234b372da UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -283,3 +285,13 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 01e6f145049f3a676df6dc247eabf176 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+0c18b3e01cf98be06bb283d4c1480cae Assembly-CSharp.dll:.Shoot
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bullet_Action
+c1e5828c36aaf27c5879f1d10fff1882 Assembly-CSharp.dll:.Attack
+5ee0d0f5391c322c36f505da6ebd650f Assembly-CSharp.dll:VolumetricLines.VolumetricLineBehavior
+77135aaf0654bf78d72e7fdd27ebb144 Assembly-CSharp.dll:.VolumetricLineSettings
+8f7d48a19e5f6f6d0a1f7b235b6c9be2 Assembly-CSharp.dll:VolumetricLines.VolumetricMultiLineBehavior
+40d1b68f7ccc245a93387d56f52eeb0c Assembly-CSharp.dll:.CreateSinShapedLineStrip
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ShotBehavior
+d07547d5fb2d85b5f52e21c1e08e8ae3 Assembly-CSharp.dll:.CannonBehavior
+8f7d48a19e5f6f6d0a1f7b235b6c9be2 Assembly-CSharp.dll:VolumetricLines.VolumetricLineStripBehavior
