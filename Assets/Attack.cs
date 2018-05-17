@@ -64,7 +64,7 @@ public class Attack : MonoBehaviour {
 
             bullet2 = Instantiate(Bullet, FPoint2.position, Quaternion.identity) as GameObject;
             bullet2.transform.LookAt(targetPoint);//子弹的Z轴朝向目标  
-            Destroy(bullet, 10);//在10S后销毁子弹   
+            Destroy(bullet,2);//在10S后销毁子弹   
                                 // timer = 0;//时间清零  
         }
     }
