@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 583, y: 492}
+  m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 149
+  controlID: 118
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 403
     height: 561
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -143,7 +143,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 1365
     height: 947
-  m_MinSize: {x: 306, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 52
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 0
     width: 1365
     height: 561
-  m_MinSize: {x: 306, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 53
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,15 +252,15 @@ MonoBehaviour:
     y: 0
     width: 962
     height: 561
-  m_MinSize: {x: 104, y: 121}
+  m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,34 +398,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/VolumetricLines/ExampleScenes/ExampleMaterials
+    - Assets/BrokenVector/LowPolySurvivalEssentials/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/VolumetricLines/ExampleScenes/ExampleMaterials
+  - Assets/BrokenVector/LowPolySurvivalEssentials/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\Unity3D\project\GermBattle
+  m_LastProjectPath: "G:\\\u6E38\u620F\u5B9E\u8BAD\\GermBattle"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 56}
-    m_SelectedIDs: 482e0000
-    m_LastClickedID: 11848
-    m_ExpandedIDs: 000000003c2b00006a2b0000c82b0000e02d00003e300000403000004230000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 104}
+    m_SelectedIDs: 6e390000
+    m_LastClickedID: 14702
+    m_ExpandedIDs: 00000000342b0000622b0000c02b000032300000343000003630000092310000bc310000c0310000303900003a3900003e3900006e3900007039000074390000ca3e0000cc3e0000d23e0000ea3e0000f43e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: ExampleScenes
-      m_OriginalName: ExampleScenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 11208
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -439,7 +439,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c2b00006a2b0000c82b0000e02d00003e3000004030000042300000
+    m_ExpandedIDs: 00000000342b0000622b0000c02b0000d82d0000323000003430000036300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 318
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -554,24 +554,24 @@ MonoBehaviour:
     height: 540
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 7863fbff7464fbff7c65fbffaa67fbffb667fbffc267fbffd067fbffdc67fbff5ab0fbff6eb1fbff68b2fbff92b4fbff9ab4fbffa2b4fbffacb4fbffb4b4fbff5a10fdff6611fdff5c12fdff8614fdff8e14fdff9614fdffa014fdffa814fdff4e22ffff4823ffff2c24ffff5626ffff5e26ffff6626ffff7026ffff7826ffff508dffff4c8effff328fffff5c91ffff6491ffff6c91ffff7691ffff7e91ffffeeb3fffffcb4fffff6b5ffff20b8ffff28b8ffff30b8ffff3ab8ffff42b8ffffeafbffff00000000de2f0000b8330000be3700007c3c000064470000a2470000b047000076500000b2500000c0500000
+    scrollPos: {x: 0, y: 101}
+    m_SelectedIDs: 1eecf8ff
+    m_LastClickedID: -463842
+    m_ExpandedIDs: feb2ffffd8c3ffffa2c4ffff44e5fffff0fbffff000000006a410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: shot_prefab
-      m_OriginalName: shot_prefab
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -120610
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -612,9 +612,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: -3.6505494}
+    m_Target: {x: -68.01758, y: -347.98438, z: -86.96875}
     speed: 2
-    m_Value: {x: 0, y: 0, z: -3.6505494}
+    m_Value: {x: -68.01758, y: -347.98438, z: -86.96875}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -642,13 +642,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.70710677, y: 0, z: -0, w: -0.70710677}
+    m_Target: {x: 0.35391197, y: 0.05467003, z: -0.020726418, w: 0.933452}
     speed: 2
-    m_Value: {x: -0.7071067, y: 0, z: -0, w: -0.7071067}
+    m_Value: {x: 0.35391113, y: 0.054669898, z: -0.020726368, w: 0.9334498}
   m_Size:
-    m_Target: 744.20624
+    m_Target: 238.08139
     speed: 2
-    m_Value: 744.20624
+    m_Value: 238.08139
   m_Ortho:
     m_Target: 1
     speed: 2
