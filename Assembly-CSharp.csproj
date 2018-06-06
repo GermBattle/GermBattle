@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BrokenVector\LowPolySurvivalEssentials\Example\Scripts\AnimatedFire.cs" />
+     <Compile Include="Assets\HealthBar.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
@@ -66,10 +67,27 @@
      <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Examples\Scripts\AssetStoreLink.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Examples\Scripts\TestBarControl.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Examples\Scripts\TestPageSwitch.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Examples\Scripts\TestSwitchBar.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\BarViewColor.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\BarViewColorWhileMoving.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\BarViewPosAnchors.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\BarViewPosImageFill.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\BarViewSizeAnchors.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\BarViewSizeAnchorsShadow.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\BarViewSizeImageFill.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\BarViewValueText.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\ProgressBarPro.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\ProgressBarProView.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\Utils\ImageSlicedMirror.cs" />
+     <Compile Include="Assets\PS-ProgressBar\Scripts\Utils\Utils.cs" />
      <Compile Include="Assets\Scenes\Shoot.cs" />
      <Compile Include="Assets\Script\Attack.cs" />
      <Compile Include="Assets\Script\Bullet_Action.cs" />
      <Compile Include="Assets\Script\BulletCollision.cs" />
+     <Compile Include="Assets\Script\EnemyUiHP.cs" />
      <Compile Include="Assets\Script\GermMove.cs" />
      <Compile Include="Assets\Script\Scene_Button.cs" />
      <Compile Include="Assets\VolumetricLines\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
@@ -107,6 +125,7 @@
      <None Include="Assets\VolumetricLines\Shaders\Strip-Additive.shader" />
      <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
      <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+     <None Include="Assets\PS-ProgressBar\readme.txt" />
      <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
      <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
      <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
