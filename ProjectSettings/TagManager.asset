@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Terrain
   - Germ
+  - Bullet
   layers:
   - Default
   - TransparentFX

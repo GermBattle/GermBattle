@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class BulletCollision : MonoBehaviour {
     public Text score;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	

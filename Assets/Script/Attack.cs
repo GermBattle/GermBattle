@@ -17,6 +17,7 @@ public class Attack : MonoBehaviour {
     public Button button;
     public Text score;
     private int goal;
+    [SerializeField] Transform barParent;
     void Start()
     {
 

@@ -52,6 +52,20 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BrokenVector\LowPolySurvivalEssentials\Example\Scripts\AnimatedFire.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
+     <Compile Include="Assets\GermCollision.cs" />
      <Compile Include="Assets\HealthBar.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
@@ -139,6 +153,7 @@
      <None Include="Assets\VolumetricLines\Shaders\Fast-Additive.shader" />
      <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\VolumetricLines\Shaders\_SimpleShader.cginc" />
+     <None Include="Assets\Epic Toon FX\ETFX Readme.txt" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>E:/Unity3D/Git/GermBattle/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

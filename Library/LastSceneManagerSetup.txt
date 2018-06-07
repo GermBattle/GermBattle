@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/PS-ProgressBar/Examples/Scenes/Example-Prefabs.unity
+- path: Assets/Poly/Geom Art Pack vol. 2/Floating Islands.unity
   isLoaded: 1
   isActive: 1

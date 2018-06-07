@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GermMove : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+    ProgressBarPro hpbar;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -19,6 +19,7 @@ public class GermMove : MonoBehaviour {
         //transform.Translate(0, translation, 0);
         //transform.Translate(0, 0, 0.001);
 
+
         // rotate
         transform.Rotate(2, 0, 0);
 
@@ -27,5 +28,12 @@ public class GermMove : MonoBehaviour {
 
         //以模型Z轴旋转，单位为2.
         transform.Rotate(0, 0, 2);
+    }
+    public void hurt()
+    {
+        
+        double value = hpbar.Value;
+        value = value - 0.05 ;
+        hpbar.SetValue((float)value);
     }
 }
