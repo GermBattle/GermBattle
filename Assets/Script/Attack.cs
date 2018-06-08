@@ -51,7 +51,6 @@ namespace EpicToonFX
             {
                 //通过摄像机在屏幕中心点位置发射一条射线  
                 ray = m_Camera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0));
-                RaycastHit hit;
                 //Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 100f);
                 if (Physics.Raycast(ray, out hitInfo))
                 {

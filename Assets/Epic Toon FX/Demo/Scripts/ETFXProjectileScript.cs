@@ -24,7 +24,7 @@ public class ETFXProjectileScript : MonoBehaviour
  
     void OnCollisionEnter(Collision hit)
     {
-        if (!hasCollided && hit.gameObject.tag == "Germ")
+        if (!hasCollided)
         {
             hasCollided = true;
             //transform.DetachChildren();

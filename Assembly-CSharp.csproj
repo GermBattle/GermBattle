@@ -65,7 +65,6 @@
      <Compile Include="Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
      <Compile Include="Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
      <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
-     <Compile Include="Assets\GermCollision.cs" />
      <Compile Include="Assets\HealthBar.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
@@ -102,6 +101,7 @@
      <Compile Include="Assets\Script\Bullet_Action.cs" />
      <Compile Include="Assets\Script\BulletCollision.cs" />
      <Compile Include="Assets\Script\EnemyUiHP.cs" />
+     <Compile Include="Assets\Script\GermCollision.cs" />
      <Compile Include="Assets\Script\GermMove.cs" />
      <Compile Include="Assets\Script\Scene_Button.cs" />
      <Compile Include="Assets\VolumetricLines\ExampleScenes\ExampleScripts\CannonBehavior.cs" />
