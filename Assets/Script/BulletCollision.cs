@@ -6,7 +6,7 @@ public class BulletCollision : MonoBehaviour {
     public Text score;
     // Use this for initialization
     void Start () {
-		
+        //score = GameObject.FindObjectOfType<Text>();
 	}
 	
 	// Update is called once per frame
@@ -28,7 +28,7 @@ public class BulletCollision : MonoBehaviour {
             Destroy(this.gameObject);
             //int s = int.Parse(score.text);
             //s++;
-            //score.text = s.ToString();
+           // score.text = s.ToString();
             GameObject blast;
             Debug.Log("Name: " + other.contacts[0].point);
 

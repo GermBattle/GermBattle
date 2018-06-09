@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GermCollision : MonoBehaviour {
-
+    public Text score;
     // Use this for initialization
     [SerializeField] Transform barParent;
     ProgressBarPro bar;
     public float hp;
     float hpmax;
     void Start () {
+        score = GameObject.FindObjectOfType<Text>();
         bar = barParent.GetComponentInChildren<ProgressBarPro>();
         hp = 500;
         hpmax = 500;
@@ -27,9 +29,9 @@ public class GermCollision : MonoBehaviour {
             //Debug.Log("Name: " + other.gameObject.name);
             //Debug.Log("Name: " + this.gameObject.name);
 
-            //int s = int.Parse(score.text);
-            //s++;
-            //score.text = s.ToString();
+            int s = int.Parse(score.text);
+            s++;
+            score.text = s.ToString();
             GameObject blast;
             //Debug.Log("Name: " + other.contacts[0].point);
 
