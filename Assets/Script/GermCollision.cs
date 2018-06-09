@@ -44,6 +44,9 @@ public class GermCollision : MonoBehaviour {
                 hp -= 5;
                 bar.SetValue(hp / hpmax);
             }
+
+            PlayerPrefs.SetInt("currScore", s);
+
         }
     }
 }

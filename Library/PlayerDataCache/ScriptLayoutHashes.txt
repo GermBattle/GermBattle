@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-E:/Unity3D/Git/GermBattle/GermBattle.apk
+G:/aGame/GermBattle/GermBattle/GermBattle.apk
 SceneListBegin?
 Assets/Scenes/MainScene.unity
 Assets/Scenes/GameScene.unity
@@ -100,6 +100,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 1f750559cdbc6ee30a69a0f008861a31 Assembly-CSharp.dll:.TestSwitchBar
 458cdfdb0c72976d9689cbb282a9dc39 Assembly-CSharp.dll:PlayfulSystems.ProgressBar.BarViewSizeImageFill
 0c337b1446c6d6ea1bfef39bddf3e1a2 Assembly-CSharp.dll:.WFX_Demo_New
+25b76b7282a07dd09f45b5471b1035a4 Assembly-CSharp.dll:.Rank
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 13bdb7c23815c33a33b37b0ba8dd39be UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -219,7 +220,7 @@ ab33636d6ab69a357f553ed12c5ccacc Assembly-CSharp.dll:.CFX_Demo_RotateCamera
 cf034d56006fab83d80d3d2c8d2b4a6b Assembly-CSharp.dll:.WFX_Demo_RandomDir
 d07547d5fb2d85b5f52e21c1e08e8ae3 Assembly-CSharp.dll:.CannonBehavior
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TestPageSwitch
-58b64bd55b50978e39682e1761e10424 Assembly-CSharp.dll:.GermCollision
+2ece77722a0a17cca8c0c3c9fee49c2b Assembly-CSharp.dll:.GermCollision
 31cf01fa5cdbe5572a95e3db8487bdc6 Assembly-CSharp.dll:.CFX_LightIntensityFade
 b8f057a5d96b66234b3230a0d800dcf6 Assembly-CSharp.dll:.ImageSlicedMirror
 4c4d2117bd2fbec66edb9a6291eb558d Assembly-CSharp.dll:.BulletCollision
@@ -239,6 +240,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraFocus
 7b71f5c58d2a7bc2935f40d5ba54e9c3 Assembly-CSharp.dll:PlayfulSystems.ProgressBar.TestBarControl
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DefaultTrackableEventHandler
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
