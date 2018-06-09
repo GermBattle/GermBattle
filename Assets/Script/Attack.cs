@@ -57,7 +57,7 @@ namespace EpicToonFX
                     targetPoint = hitInfo.point * 1000;
                     Debug.Log("this is a test");
                     goal++;
-                    score.text = goal.ToString();
+                    //score.text = goal.ToString();
                 }
                 //将目标点设置在摄像机自身前方1000米处  
                 targetPoint = m_Camera.transform.forward * 5000;
