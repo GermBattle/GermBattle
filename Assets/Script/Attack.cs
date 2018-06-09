@@ -20,17 +20,17 @@ namespace EpicToonFX
         public Button button;
         public Text score;
         private int goal;
+
         [SerializeField]
         Transform barParent;
         void Start()
         {
-
+        
         }
 
         void Awake()
         {
             // 获取button组件
-            goal = 0;
             score.text = "0";
             btn = this.GetComponent<Button>();
             // 下面的方法把OnButtonClick方法注册到btn上
