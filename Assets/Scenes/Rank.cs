@@ -7,7 +7,6 @@ using System;
 
 public class Rank : MonoBehaviour {
     public GameObject L0;
-    public GameObject[] newIndexs;
     public GameObject Panel;
 
     public int scoreNum; // 取出存储新分数
@@ -95,13 +94,7 @@ public class Rank : MonoBehaviour {
             string saveIntStrO = saveIntStr + i.ToString();
             Ranking.text = Ranking.text + "<size=27>"+ (i+1).ToString() + "     " + PlayerPrefs.GetInt(saveIntStrO).ToString() + "</size>\n";
         }
-       /* for (int i = 0; i < newIndexs.Length; i++)
-        {
-            string saveIntStrO = saveIntStr + i.ToString();
-            //newIndexs[i] = Instantiate(L0, transform.position, transform.rotation) as GameObject;
-            //newIndexs[i].transform.SetParent(Panel.transform);
-            //newIndexs[i].GetComponent<Text>().text = PlayerPrefs.GetInt(saveIntStrO).ToString();
-        }*/
+      
         Ranking.text = Ranking.text.Replace("\\n", "\n");
 
     }
