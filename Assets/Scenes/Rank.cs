@@ -25,17 +25,22 @@ public class Rank : MonoBehaviour {
         // 初始化
         // 获取上一个场景存储的数据
         scoreNum = PlayerPrefs.GetInt("currScore");
-        print("TEST PLAYERFEBS测试静态数据: " + scoreNum);
+        print("TEST PLAYERFEBS DATA GET: " + scoreNum);
         // test
         //Ranking = GameObject.FindObjectOfType<Text>();
         Ranking = GameObject.Find("Canvas/Ranking").GetComponent<Text>();
+        
         //获取存储在排行榜中的数据
         for (int i = 0; i < 5; i++)
         {
-            print(save[i]);
             string saveIntStrS = saveIntStr + i.ToString();
             save[i] = PlayerPrefs.GetInt(saveIntStrS);
         }
+        // 初始化为0
+       /* for (int i = 0; i < 5; i++)
+        {
+            save[i] = 0;
+        }*/
 
         //添加新数据并排序（从大到小）
         for (int i = 0; i < 5; i++)
