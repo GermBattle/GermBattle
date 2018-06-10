@@ -15,7 +15,8 @@ public class GermCollision : MonoBehaviour {
         bar = barParent.GetComponentInChildren<ProgressBarPro>();
         hp = 500;
         hpmax = 500;
-	}
+        PlayerPrefs.SetInt("currScore", 0);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -28,7 +29,8 @@ public class GermCollision : MonoBehaviour {
         {
             //Debug.Log("Name: " + other.gameObject.name);
             //Debug.Log("Name: " + this.gameObject.name);
-
+            
+            // Score Calculation
             int s = int.Parse(score.text);
             s++;
             score.text = s.ToString();
@@ -44,6 +46,10 @@ public class GermCollision : MonoBehaviour {
                 hp -= 5;
                 bar.SetValue(hp / hpmax);
             }
+            // save score
+            PlayerPrefs.SetInt("currScore", s);
+
+
         }
     }
 }

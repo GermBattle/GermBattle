@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/MainScene.unity
+=======
+- path: Assets/Scenes/RankScene.unity
+>>>>>>> bfdf4e86457bf4e540d899183a825ca791579164
   isLoaded: 1
   isActive: 1
