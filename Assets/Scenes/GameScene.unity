@@ -527,6 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0b5658c033b164cab30ceb4f245fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 0}
   barParent: {fileID: 1179625985}
   hp: 0
 --- !u!1 &290416203
@@ -1477,6 +1478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0b5658c033b164cab30ceb4f245fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 0}
   barParent: {fileID: 1179625985}
   hp: 0
 --- !u!1 &797048259
@@ -1982,6 +1984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0b5658c033b164cab30ceb4f245fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 0}
   barParent: {fileID: 1179625985}
   hp: 0
 --- !u!136 &924812758
@@ -2913,7 +2916,7 @@ GameObject:
   - component: {fileID: 1420296057}
   - component: {fileID: 1420296056}
   m_Layer: 5
-  m_Name: PhysicalAttack_Button
+  m_Name: MagicalAttack_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2951,7 +2954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPoint2: {fileID: 1224530914}
   FPoint: {fileID: 718695917}
-  Bullet: {fileID: 128572, guid: 04332ddfc8612384e96b2ee753f33422, type: 2}
+  Bullet: {fileID: 128572, guid: 6ab24dea224d8b842ae316347b4a4e3a, type: 2}
   m_Camera: {fileID: 1543396152}
   targetPoint: {x: 0, y: 0, z: 0}
   button: {fileID: 1420296057}
@@ -3726,6 +3729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0b5658c033b164cab30ceb4f245fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 0}
   barParent: {fileID: 1179625985}
   hp: 0
 --- !u!1001 &1641902019
@@ -4393,7 +4397,7 @@ GameObject:
   - component: {fileID: 1776661445}
   - component: {fileID: 1776661444}
   m_Layer: 5
-  m_Name: MagicalAttack_Button
+  m_Name: PhysicalAttack_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4431,7 +4435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPoint2: {fileID: 1224530914}
   FPoint: {fileID: 718695917}
-  Bullet: {fileID: 128572, guid: 4d08b1ddf88c65a4facd913e932ec5f8, type: 2}
+  Bullet: {fileID: 128572, guid: a99a57cf3a7bacc479881d230e99afc3, type: 2}
   m_Camera: {fileID: 1543396152}
   targetPoint: {x: 0, y: 0, z: 0}
   button: {fileID: 1776661445}
