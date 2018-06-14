@@ -7,6 +7,8 @@ TagManager:
   - Terrain
   - Germ
   - Bullet
+  - Skill
+  - GermBullet
   layers:
   - Default
   - TransparentFX
