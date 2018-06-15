@@ -16,11 +16,22 @@ namespace EpicToonFX
         private Ray ray;
         private Vector3 targetPoint;
         public Button button;
-        public ProgressBarPro bar;
+        //public ProgressBarPro bar;
+        //蓝耗
+        public GameObject Mpbar;
+        public float ValueOfMp;
+        private float InitialRight;
+        private float InitialLeft;
+        private float InitialTop;
+        private float InitialBottom;
+        private float width;
 
         void Start()
         {
-
+            InitialRight = Mpbar.GetComponent<RectTransform>().offsetMax.x;
+            InitialBottom = Mpbar.GetComponent<RectTransform>().offsetMax.y;
+            InitialLeft = Mpbar.GetComponent<RectTransform>().offsetMin.x;
+            width = InitialRight - InitialLeft;
         }
 
         void Awake()
@@ -29,10 +40,12 @@ namespace EpicToonFX
                 delegate ()
                 {
                     // 这里添加你想要监听的事件
-                    if (bar.Value >= 0.1)
+                    var right = Mpbar.GetComponent<RectTransform>().offsetMax.x;
+                    if (right - ValueOfMp*width >= InitialLeft)
                     {
-                        //float value = bar[2].Value - 0.1;
-                        bar.SetValue((float)(bar.Value - 0.1));
+
+                        Mpbar.GetComponent<RectTransform>().offsetMax = new Vector2(right - ValueOfMp * width, InitialBottom);
+                        //bar.SetValue((float)(bar.Value - 0.1));
                         this.OnCommonButtonClick();
                     }
 

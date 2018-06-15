@@ -10,13 +10,27 @@ public class GermCollision : MonoBehaviour
     // Use this for initialization
     [SerializeField]
     Transform barParent;
-    ProgressBarPro bar;
+    //ProgressBarPro bar;
     public float hp;
     float hpmax;
+
+    //血条相关
+    public GameObject Hpbar;
+    private float InitialRight;
+    private float InitialLeft;
+    private float InitialTop;
+    private float InitialBottom;
+    private float width;
+
+
     void Start()
     {
+        InitialRight = Hpbar.GetComponent<RectTransform>().offsetMax.x;
+        InitialBottom = Hpbar.GetComponent<RectTransform>().offsetMax.y;
+        InitialLeft = Hpbar.GetComponent<RectTransform>().offsetMin.x;
+        width = InitialRight - InitialLeft;
         score = GameObject.FindObjectOfType<Text>();
-        bar = barParent.GetComponentInChildren<ProgressBarPro>();
+        //bar = barParent.GetComponentInChildren<ProgressBarPro>();
         hp = 500;
         hpmax = 500;
         PlayerPrefs.SetInt("currScore", 0);
@@ -45,7 +59,8 @@ public class GermCollision : MonoBehaviour
             if (hp > 0)
             {
                 hp -= 5;
-                bar.SetValue(hp / hpmax);
+                //bar.SetValue(hp / hpmax);
+                Hpbar.GetComponent<RectTransform>().offsetMax = new Vector2(InitialLeft + hp / hpmax * width, InitialBottom);
             }
             // save score
             PlayerPrefs.SetInt("currScore", s);
@@ -65,7 +80,8 @@ public class GermCollision : MonoBehaviour
             if (hp > 0)
             {
                 hp -= 35;
-                bar.SetValue(hp / hpmax);
+                //bar.SetValue(hp / hpmax);
+                Hpbar.GetComponent<RectTransform>().offsetMax = new Vector2(InitialLeft + hp / hpmax * width, InitialBottom);
             }
             PlayerPrefs.SetInt("currScore", s);
         }

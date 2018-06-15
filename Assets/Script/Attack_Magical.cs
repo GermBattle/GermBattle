@@ -14,10 +14,20 @@ public class Attack_Magical : MonoBehaviour
     private Vector3 targetPoint;
     public Button button;
     public ProgressBarPro bar;
-
+    //蓝耗
+    public GameObject Mpbar;
+    public float ValueOfMp;
+    private float InitialRight;
+    private float InitialLeft;
+    private float InitialTop;
+    private float InitialBottom;
+    private float width;
     void Start()
     {
-
+        InitialRight = Mpbar.GetComponent<RectTransform>().offsetMax.x;
+        InitialBottom = Mpbar.GetComponent<RectTransform>().offsetMax.y;
+        InitialLeft = Mpbar.GetComponent<RectTransform>().offsetMin.x;
+        width = InitialRight - InitialLeft;
     }
 
     void Awake()
