@@ -16,6 +16,7 @@ public class GermCollision : MonoBehaviour
 
     //血条相关
     public GameObject Hpbar;
+    
     private float InitialRight;
     private float InitialLeft;
     private float InitialTop;

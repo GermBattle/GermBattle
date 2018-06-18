@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour {
     public GameObject Hpbar;
+    public GameObject LoseCanvas;
     private float InitialRight;
     private float InitialLeft;
     private float InitialTop;
@@ -33,7 +34,10 @@ public class PlayerCollision : MonoBehaviour {
             if (right -  ValueOfHurt* width >= InitialLeft)
             {
                 Hpbar.GetComponent<RectTransform>().offsetMax = new Vector2(right - ValueOfHurt*width, InitialBottom);
-            } 
+            } else
+            {
+                LoseCanvas.SetActive(true);
+            }
 
             /*
             if (Hpbar.Value > 0)

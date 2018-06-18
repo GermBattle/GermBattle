@@ -36,6 +36,9 @@ public class Scene_Button : MonoBehaviour {
         else if (button.name == "Back_Button")
         {
             SceneManager.LoadScene("MainScene");
+        } else
+        {
+            SceneManager.LoadScene("MainScene");
         }
     }
 }

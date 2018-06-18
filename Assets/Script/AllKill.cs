@@ -12,7 +12,7 @@ public class AllKill : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         
-        if (this.transform.childCount == 3)
+        if (this.transform.childCount == 0)
         {
             WinCanvas.SetActive(true);
         } else

@@ -16,7 +16,7 @@ public class Popup : MonoBehaviour
 
     public void Open()
     {
-        AddBackground();
+        //AddBackground();
     }
 
     public void Close()
@@ -25,7 +25,7 @@ public class Popup : MonoBehaviour
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Open"))
             animator.Play("Close");
 
-        RemoveBackground();
+        //RemoveBackground();
         StartCoroutine(RunPopupDestroy());
     }
 

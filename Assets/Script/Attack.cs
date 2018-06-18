@@ -47,6 +47,7 @@ namespace EpicToonFX
         void OnButtonClick()
         {
             print("开始监听");
+            Time.timeScale = 0;
             if (true)//如果计时大于子弹的发射速率（rate每秒几颗子弹）  
             {
                 //通过摄像机在屏幕中心点位置发射一条射线  
