@@ -87,5 +87,20 @@ public class GermCollision : MonoBehaviour
             PlayerPrefs.SetInt("currScore", s);
         }
 
+        if (other.gameObject.tag == "Magical")
+        {
+            int s = int.Parse(score.text);
+            s += 7;
+            score.text = s.ToString();
+
+            if (hp > 0)
+            {
+                hp -= 20;
+                //bar.SetValue(hp / hpmax);
+                Hpbar.GetComponent<RectTransform>().offsetMax = new Vector2(InitialLeft + hp / hpmax * width, InitialBottom);
+            }
+            PlayerPrefs.SetInt("currScore", s);
+        }
+
     }
 }

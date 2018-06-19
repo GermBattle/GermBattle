@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Skill
   - GermBullet
+  - Magical
   layers:
   - Default
   - TransparentFX

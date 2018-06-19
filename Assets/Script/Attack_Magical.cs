@@ -13,7 +13,6 @@ public class Attack_Magical : MonoBehaviour
     private Ray ray;
     private Vector3 targetPoint;
     public Button button;
-    public ProgressBarPro bar;
     //蓝耗
     public GameObject Mpbar;
     public float ValueOfMp;
@@ -36,13 +35,14 @@ public class Attack_Magical : MonoBehaviour
             delegate ()
             {
                 // 这里添加你想要监听的事件
+                /*
                 if (bar.Value >= 0.05)
                 {
                     //float value = bar[2].Value - 0.1;
                     bar.SetValue((float)(bar.Value - 0.05));
                     this.OnCommonButtonClick();
                 }
-
+                */
             }
         );
     }
