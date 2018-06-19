@@ -47,6 +47,7 @@ public class GermCollision : MonoBehaviour
     }
     void OnCollisionEnter(Collision other)
     {
+        PlayerPrefs.SetInt("isRecorded", 0);
         //进入碰撞器执行的代码
         if (other.gameObject.tag == "Bullet")
         {

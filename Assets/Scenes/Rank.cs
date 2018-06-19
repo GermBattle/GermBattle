@@ -23,74 +23,81 @@ public class Rank : MonoBehaviour {
     void Start () {
         // 初始化
         // 获取上一个场景存储的数据
-        scoreNum = PlayerPrefs.GetInt("currScore");
-        print("TEST PLAYERFEBS DATA GET: " + scoreNum);
-        // test
-        //Ranking = GameObject.FindObjectOfType<Text>();
-        Ranking = GameObject.Find("Canvas/Ranking").GetComponent<Text>();
-        
-        //获取存储在排行榜中的数据
-        for (int i = 0; i < 5; i++)
+        int valid = PlayerPrefs.GetInt("isRecorded");
+        Debug.Log("show valid number first in: " + valid);
+        if (valid == 0)
         {
-            string saveIntStrS = saveIntStr + i.ToString();
-            save[i] = PlayerPrefs.GetInt(saveIntStrS);
-        }
-        // 初始化为0
-       /* for (int i = 0; i < 5; i++)
-        {
-            save[i] = 0;
-        }*/
+            scoreNum = PlayerPrefs.GetInt("currScore");
+            print("TEST PLAYERFEBS DATA GET: " + scoreNum);
+            // test
+            //Ranking = GameObject.FindObjectOfType<Text>();
+            Ranking = GameObject.Find("Canvas/Ranking").GetComponent<Text>();
 
-        //添加新数据并排序（从大到小）
-        for (int i = 0; i < 5; i++)
-        {
-            if (save[i] == null || save[i] == 0)
+            //获取存储在排行榜中的数据
+            for (int i = 0; i < 5; i++)
             {
-                save[i] = scoreNum;
-                num = i;
-
-                for (int m = 0; m < num + 1; ++m)
-                {
-                    int t = save[m];
-                    int n = m;
-                    while ((n > 0) && (save[n - 1] < t))
-                    {
-                        save[n] = save[n - 1];
-                        --n;
-                    }
-                    save[n] = t;
-                }
-
-                break;
+                string saveIntStrS = saveIntStr + i.ToString();
+                save[i] = PlayerPrefs.GetInt(saveIntStrS);
             }
-            else
-            {
-                int n = 4;
-                if (scoreNum > save[4])
-                {
-                    while (save[n - 1] < scoreNum)
-                    {
-                        save[n] = save[n - 1];
-                        --n;
-                        save[n] = scoreNum;
+            // 初始化为0
+            /* for (int i = 0; i < 5; i++)
+             {
+                 save[i] = 0;
+             }*/
 
-                        if (n == 0)
+            //添加新数据并排序（从大到小）
+            for (int i = 0; i < 5; i++)
+            {
+                if (save[i] == null || save[i] == 0)
+                {
+                    save[i] = scoreNum;
+                    num = i;
+
+                    for (int m = 0; m < num + 1; ++m)
+                    {
+                        int t = save[m];
+                        int n = m;
+                        while ((n > 0) && (save[n - 1] < t))
                         {
-                            break;
+                            save[n] = save[n - 1];
+                            --n;
                         }
+                        save[n] = t;
                     }
+
                     break;
                 }
+                else
+                {
+                    int n = 4;
+                    if (scoreNum > save[4])
+                    {
+                        while (save[n - 1] < scoreNum)
+                        {
+                            save[n] = save[n - 1];
+                            --n;
+                            save[n] = scoreNum;
+
+                            if (n == 0)
+                            {
+                                break;
+                            }
+                        }
+                        break;
+                    }
+                }
             }
+
+            //把当前数据存储
+            for (int j = 0; j < 5; j++)
+            {
+                string saveIntStrI = saveIntStr + j.ToString();
+                PlayerPrefs.SetInt(saveIntStrI, save[j]);
+                //PlayerPrefs.SetInt(saveIntStrI, 0);
+            }
+
         }
-       
-        //把当前数据存储
-        for (int j = 0; j < 5; j++)
-        {
-            string saveIntStrI = saveIntStr + j.ToString();
-            PlayerPrefs.SetInt(saveIntStrI, save[j]);
-            //PlayerPrefs.SetInt(saveIntStrI, 0);
-        }
+            
 
         //将数据显示到场景UI中 
         Ranking.text = "<size=36>Top Five Record</size>\n";
@@ -101,6 +108,7 @@ public class Rank : MonoBehaviour {
         }
       
         Ranking.text = Ranking.text.Replace("\\n", "\n");
+        PlayerPrefs.SetInt("isRecorded", 1);
 
     }
 
