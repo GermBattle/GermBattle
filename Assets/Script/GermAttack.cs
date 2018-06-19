@@ -10,10 +10,13 @@ public class GermAttack : MonoBehaviour
     private Vector3 targetPoint;
     public float time;
     private float timer;
+    private int flag;
     // Use this for initialization
     void Start()
     {
-        timer = time;
+        timer = 5.0f;
+        flag = 0;
+        
     }
 
     // Update is called once per frame
@@ -22,15 +25,22 @@ public class GermAttack : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
-            targetPoint = m_Camera.transform.position;
-            GameObject bullet;
-            //在枪口的位置实例化一颗子弹，按子弹发射点出的旋转，进行旋转  
-            bullet = Instantiate(Bullet, FPoint.position, Quaternion.identity) as GameObject;
-            bullet.transform.LookAt(targetPoint);//子弹的Z轴朝向目标  
-            bullet.GetComponent<Rigidbody>().AddForce(bullet.transform.forward * 5000);
-            //bullet.GetComponent<ETFXProjectileScript>().impactNormal = hit.normal;
-            Destroy(bullet, 5);//在10S后销毁子弹 
-            timer = time;
+            if (flag == 0) {
+                flag = 1;
+                timer = time;
+            }
+            else
+            {
+                targetPoint = m_Camera.transform.position;
+                GameObject bullet;
+                //在枪口的位置实例化一颗子弹，按子弹发射点出的旋转，进行旋转  
+                bullet = Instantiate(Bullet, FPoint.position, Quaternion.identity) as GameObject;
+                bullet.transform.LookAt(targetPoint);//子弹的Z轴朝向目标  
+                bullet.GetComponent<Rigidbody>().AddForce(bullet.transform.forward * 5000);
+                //bullet.GetComponent<ETFXProjectileScript>().impactNormal = hit.normal;
+                Destroy(bullet, 5);//在10S后销毁子弹 
+                timer = time;
+            }
         }
     }
 }
