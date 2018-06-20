@@ -4,41 +4,42 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Scene_Button : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
+    private int Level;
+    //public string scene = "<Insert scene name>";
+    public float duration = 1.0f;
+    public Color color = Color.black;
+    // Use this for initialization
+    void Start () {
+		if (PlayerPrefs.HasKey("isLevel3"))
+        {
+            Level = 3;
+        }
+        else if (PlayerPrefs.HasKey("isLevel2"))
+        {
+            Level = 3;
+        }
+        else if (PlayerPrefs.HasKey("isLevel1"))
+        {
+            Level = 2;
+        } else
+        {
+            Level = 1;
+        }
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    
+
+    private void PerformTransition(string scene)
+    {
+        Transition.LoadLevel(scene, duration, color);
+    }
+    // Update is called once per frame
+    void Update () {
 		
 	}
     public void OnClick()
     {
-        Button button = gameObject.GetComponent<Button>() as Button;
-        if (button.name == "Rule_Button")
-        {
-            SceneManager.LoadScene("RuleScene");
-        }
-        else if (button.name == "Begin_Button")
-        {
-            SceneManager.LoadScene("GameScene");
-        }
-        else if (button.name == "Rank_Button")
-        {
-            SceneManager.LoadScene("RankScene");
-        }
-        else if (button.name == "Round_Button")
-        {
-            SceneManager.LoadScene("RoundScene");
-        } 
-        else if (button.name == "Back_Button")
-        {
-            SceneManager.LoadScene("MainScene");
-        } else
-        {
-            SceneManager.LoadScene("MainScene");
-        }
+        PerformTransition("GameScene" + Level.ToString());
+
     }
 }

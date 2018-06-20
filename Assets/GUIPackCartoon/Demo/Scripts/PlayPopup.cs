@@ -18,6 +18,7 @@ public class PlayPopup : Popup
     public Image middleStarImage;
     public Image rightStarImage;
 
+    private Text[] myscore;
     public void SetAchievedStars(int starsObtained)
     {
         if (starsObtained == 0)
@@ -43,6 +44,17 @@ public class PlayPopup : Popup
             leftStarImage.color = enabledColor;
             middleStarImage.color = enabledColor;
             rightStarImage.color = enabledColor;
+        }
+    }
+    public void SetScore(int score)
+    {
+        myscore = GetComponentsInChildren<Text>(true);
+        for (int i = 0; i <myscore.Length;i++)
+        {
+            if (myscore[i].name == "AmountText")
+            {
+                myscore[i].text = score.ToString()+" s";
+            }
         }
     }
 }

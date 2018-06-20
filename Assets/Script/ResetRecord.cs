@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameOver : MonoBehaviour {
+public class ResetRecord : MonoBehaviour {
     public GameObject warning;
 	// Use this for initialization
 	void Start () {
@@ -16,14 +16,14 @@ public class GameOver : MonoBehaviour {
     public void onClick()
     {
         warning.SetActive(true);
-
+        
     }
-    public void quit()
-    {
-        Application.Quit();
+    public void Reset() {
+        PlayerPrefs.DeleteAll();
     }
     public void Close()
     {
         warning.SetActive(false);
     }
+
 }

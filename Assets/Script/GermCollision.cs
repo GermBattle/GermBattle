@@ -5,11 +5,10 @@ using UnityEngine.UI;
 
 public class GermCollision : MonoBehaviour
 {
-    public Text score;
+    //public Text score;
     public GameObject germ;
     // Use this for initialization
     [SerializeField]
-    Transform barParent;
     //ProgressBarPro bar;
     public float hp;
     float hpmax;
@@ -30,11 +29,10 @@ public class GermCollision : MonoBehaviour
         InitialBottom = Hpbar.GetComponent<RectTransform>().offsetMax.y;
         InitialLeft = Hpbar.GetComponent<RectTransform>().offsetMin.x;
         width = InitialRight - InitialLeft;
-        score = GameObject.FindObjectOfType<Text>();
         //bar = barParent.GetComponentInChildren<ProgressBarPro>();
         hp = 500;
         hpmax = 500;
-        PlayerPrefs.SetInt("currScore", 0);
+        //PlayerPrefs.SetInt("currScore", 0);
     }
 
     // Update is called once per frame
@@ -52,9 +50,6 @@ public class GermCollision : MonoBehaviour
         if (other.gameObject.tag == "Bullet")
         {
             // Score Calculation
-            int s = int.Parse(score.text);
-            s++;
-            score.text = s.ToString();
 
 
 
@@ -65,15 +60,11 @@ public class GermCollision : MonoBehaviour
                 Hpbar.GetComponent<RectTransform>().offsetMax = new Vector2(InitialLeft + hp / hpmax * width, InitialBottom);
             }
             // save score
-            PlayerPrefs.SetInt("currScore", s);
 
 
         }
         if (other.gameObject.tag == "Skill")
         {
-            int s = int.Parse(score.text);
-            s += 7;
-            score.text = s.ToString();
             //ParticleSystem 
             GameObject blast;
             Vector3 position = other.contacts[0].point;
@@ -85,14 +76,10 @@ public class GermCollision : MonoBehaviour
                 //bar.SetValue(hp / hpmax);
                 Hpbar.GetComponent<RectTransform>().offsetMax = new Vector2(InitialLeft + hp / hpmax * width, InitialBottom);
             }
-            PlayerPrefs.SetInt("currScore", s);
         }
 
         if (other.gameObject.tag == "Magical")
         {
-            int s = int.Parse(score.text);
-            s += 7;
-            score.text = s.ToString();
 
             if (hp > 0)
             {
@@ -100,7 +87,6 @@ public class GermCollision : MonoBehaviour
                 //bar.SetValue(hp / hpmax);
                 Hpbar.GetComponent<RectTransform>().offsetMax = new Vector2(InitialLeft + hp / hpmax * width, InitialBottom);
             }
-            PlayerPrefs.SetInt("currScore", s);
         }
 
     }
