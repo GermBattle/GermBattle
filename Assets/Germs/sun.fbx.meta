@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c9eaca0c81fba2944b5620a4d7566759
+guid: 835c33dfed678b54393433dbe2915ad4
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -13,9 +13,9 @@ ModelImporter:
     100014: node_id17
     100016: node_id18
     100018: node_id19
-    100020: node_id28
-    100022: node_id4
-    100024: node_id5
+    100020: node_id20
+    100022: node_id21
+    100024: node_id30
     100026: node_id6
     100028: node_id7
     100030: node_id8
@@ -31,28 +31,28 @@ ModelImporter:
     400014: node_id17
     400016: node_id18
     400018: node_id19
-    400020: node_id28
-    400022: node_id4
-    400024: node_id5
+    400020: node_id20
+    400022: node_id21
+    400024: node_id30
     400026: node_id6
     400028: node_id7
     400030: node_id8
     400032: node_id9
     400034: //RootNode
-    2100000: Material_35
-    2100002: Material_36
-    2100004: Material_37
-    2100006: Material_38
-    2100008: Material_39
-    2100010: Material_40
-    2100012: Material_41
-    2100014: Material_42
+    2100000: Material_40
+    2100002: Material_41
+    2100004: Material_42
+    2100006: Material_43
+    2100008: Material_44
+    2100010: Material_45
+    2100012: Material_46
+    2100014: Material_47
     2300000: node_id11
     2300002: node_id13
     2300004: node_id15
     2300006: node_id17
     2300008: node_id19
-    2300010: node_id5
+    2300010: node_id21
     2300012: node_id7
     2300014: node_id9
     3300000: node_id11
@@ -60,21 +60,69 @@ ModelImporter:
     3300004: node_id15
     3300006: node_id17
     3300008: node_id19
-    3300010: node_id5
+    3300010: node_id21
     3300012: node_id7
     3300014: node_id9
-    4300000: node_id5
-    4300002: node_id7
-    4300004: node_id9
-    4300006: node_id11
-    4300008: node_id13
-    4300010: node_id15
-    4300012: node_id17
-    4300014: node_id19
-  externalObjects: {}
+    4300000: node_id7
+    4300002: node_id9
+    4300004: node_id11
+    4300006: node_id13
+    4300008: node_id15
+    4300010: node_id17
+    4300012: node_id19
+    4300014: node_id21
+    6400000: node_id11
+    6400002: node_id13
+    6400004: node_id15
+    6400006: node_id17
+    6400008: node_id19
+    6400010: node_id21
+    6400012: node_id7
+    6400014: node_id9
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_40
+    second: {fileID: 2100000, guid: ff08f66bc8d578145bf73bdb0a2cb105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_41
+    second: {fileID: 2100000, guid: ff08f66bc8d578145bf73bdb0a2cb105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_42
+    second: {fileID: 2100000, guid: ff08f66bc8d578145bf73bdb0a2cb105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_43
+    second: {fileID: 2100000, guid: 3599fc2075102b042852d00e2321ea94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_44
+    second: {fileID: 2100000, guid: 33fbc3d732efe4e47a13b9b521c880a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_45
+    second: {fileID: 2100000, guid: ff08f66bc8d578145bf73bdb0a2cb105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_46
+    second: {fileID: 2100000, guid: ff08f66bc8d578145bf73bdb0a2cb105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_47
+    second: {fileID: 2100000, guid: ff08f66bc8d578145bf73bdb0a2cb105, type: 2}
   materials:
     importMaterials: 1
-    materialName: 0
+    materialName: 2
     materialSearch: 1
     materialLocation: 1
   animations:

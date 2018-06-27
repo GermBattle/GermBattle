@@ -1,76 +1,97 @@
 fileFormatVersion: 2
-guid: a5364bd7082c5ad47851b9fc5493e6fc
+guid: d3620f2f0b676e144b2b7bf882cd3a11
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: root 1
-    100004: root 2
-    100006: root 3
-    100008: root 4
-    100010: root 5
-    400000: //RootNode
-    400002: root 1
-    400004: root 2
-    400006: root 3
-    400008: root 4
-    400010: root 5
-    2100000: Material_201
-    2100002: Material_203
-    2100004: Material_205
-    2100006: Material_207
-    2100008: Material_209
-    2300000: root 1
-    2300002: root 2
-    2300004: root 3
-    2300006: root 4
-    2300008: root 5
-    3300000: root 1
-    3300002: root 2
-    3300004: root 3
-    3300006: root 4
-    3300008: root 5
-    4300000: root
-    4300002: root
-    4300004: root
-    4300006: root
-    4300008: root
+    100000: node_id10
+    100002: node_id11
+    100004: node_id12
+    100006: node_id13
+    100008: node_id14
+    100010: node_id15
+    100012: node_id16
+    100014: node_id17
+    100016: node_id18
+    100018: node_id19
+    100020: node_id28
+    100022: node_id4
+    100024: node_id5
+    100026: node_id6
+    100028: node_id7
+    100030: node_id8
+    100032: node_id9
+    100034: //RootNode
+    400000: node_id10
+    400002: node_id11
+    400004: node_id12
+    400006: node_id13
+    400008: node_id14
+    400010: node_id15
+    400012: node_id16
+    400014: node_id17
+    400016: node_id18
+    400018: node_id19
+    400020: node_id28
+    400022: node_id4
+    400024: node_id5
+    400026: node_id6
+    400028: node_id7
+    400030: node_id8
+    400032: node_id9
+    400034: //RootNode
+    2100000: Material_35
+    2100002: Material_36
+    2100004: Material_37
+    2100006: Material_38
+    2100008: Material_39
+    2100010: Material_40
+    2100012: Material_41
+    2100014: Material_42
+    2300000: node_id11
+    2300002: node_id13
+    2300004: node_id15
+    2300006: node_id17
+    2300008: node_id19
+    2300010: node_id5
+    2300012: node_id7
+    2300014: node_id9
+    3300000: node_id11
+    3300002: node_id13
+    3300004: node_id15
+    3300006: node_id17
+    3300008: node_id19
+    3300010: node_id5
+    3300012: node_id7
+    3300014: node_id9
+    4300000: node_id5
+    4300002: node_id7
+    4300004: node_id9
+    4300006: node_id11
+    4300008: node_id13
+    4300010: node_id15
+    4300012: node_id17
+    4300014: node_id19
   externalObjects:
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: 2367
-    second: {fileID: 2800000, guid: 312a61e58edd51a429b54f8c66c7e9da, type: 3}
+      name: 3
+    second: {fileID: 2800000, guid: 415aa1ed3eab6fd459ca9684d796b1f2, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: 2371
-    second: {fileID: 2800000, guid: c191e36c56cc923479deec1700a4d545, type: 3}
+      name: 4
+    second: {fileID: 2800000, guid: 7e07756917f548c48b858fcd58559651, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: 2376
-    second: {fileID: 2800000, guid: acfc11110a0779046a8b53fa8dfb5112, type: 3}
+      name: 5
+    second: {fileID: 2800000, guid: 50315a551b3fa834baaf9a50b44d0abf, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: 2384
-    second: {fileID: 2800000, guid: 8ea120e0957bef6478cf10594092c6e5, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: 2388
-    second: {fileID: 2800000, guid: 37b081c4f2fc6df4d95a904548d92fe5, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: 2394
-    second: {fileID: 2800000, guid: 816b41f139a18dd42a6eeb4ad469d4c5, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: 2398
-    second: {fileID: 2800000, guid: 97b274023444a4541b6b4a9c48bfcd75, type: 3}
+      name: 6
+    second: {fileID: 2800000, guid: db01a7e4a74a0b642a19bbbb021baf8a, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
