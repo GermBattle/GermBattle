@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GermMove : MonoBehaviour {
+    public float rotateX;
+    public float rotateY;
+    public float rotateZ;
     // Use this for initialization
     void Start () {
 		
@@ -20,13 +23,13 @@ public class GermMove : MonoBehaviour {
 
 
         // rotate
-        transform.Rotate(2, 0, 0);
+        transform.Rotate(rotateX, rotateY, rotateZ);
 
         //以模型Y轴旋转，单位为2.
-        transform.Rotate(0, 2, 0);
+        //transform.Rotate(0, 2, 0);
 
         //以模型Z轴旋转，单位为2.
-        transform.Rotate(0, 0, 2);
+        //transform.Rotate(0, 0, 2);
     }
 
 }
