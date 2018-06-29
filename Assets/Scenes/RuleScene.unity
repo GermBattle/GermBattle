@@ -218,7 +218,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -835, y: -92}
+  m_AnchoredPosition: {x: -835, y: -163}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &33432179
@@ -499,7 +499,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -896, y: -154}
+  m_AnchoredPosition: {x: -896, y: -225}
   m_SizeDelta: {x: 152, y: 155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &148577264
@@ -567,8 +567,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18, y: 8}
-  m_SizeDelta: {x: 160, y: 160}
+  m_AnchoredPosition: {x: 9, y: 3}
+  m_SizeDelta: {x: 255, y: 210.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &235482421
 MonoBehaviour:
@@ -589,7 +589,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 91145cc5b5ebd7547ba3124394d45863, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b5c6a297c047be7458d21ee99864bf2e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -635,7 +635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -901, y: 124}
+  m_AnchoredPosition: {x: -901, y: 52.999992}
   m_SizeDelta: {x: 152, y: 155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &238417245
@@ -3217,7 +3217,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -904, y: -420}
+  m_AnchoredPosition: {x: -904, y: -491}
   m_SizeDelta: {x: 152, y: 155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1327162689
@@ -4481,7 +4481,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -142.9, y: -16.6}
+  m_AnchoredPosition: {x: -142.9, y: -59}
   m_SizeDelta: {x: 214.2, y: 214.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1977231910
