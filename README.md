@@ -1,13 +1,11 @@
-# GermBattle
-GermBattle Source Code.
+# hbo cookie checker
 
-## Overview
+same idea as my netflix checker but for hbo max. bulk validate session cookies.
 
-![mmexport1530250867476](https://user-images.githubusercontent.com/20439262/42075959-c81383a4-7ba5-11e8-9b60-1838b5ff0627.jpg)
+## usage
 
-Germ Battle is a shooting AR game. 
+- download from releases
+- drop cookies in input/
+- run
 
-## Reference
-
-+ [vuforia](https://www.vuforia.com/)
-+ [unity3d](http://unity3d.com/)
+working cookies copied to hits/ with plan info in the log
